@@ -1,0 +1,72 @@
+		.content-desktop {display: block;}
+		.content-mobile {display: none;}
+
+		body {
+		background-image: url(images/OFiestaWireframes.png), url(images/OFiestaWireframes.png);
+  		background-repeat: no-repeat;
+  		background-position: center;
+  		height: 100%;
+	}
+
+		button {
+			justify-content: center;
+			width: 360px;
+			color: #937CB9;
+			background-color: #FCB762;
+			border: none;
+			font-size: 42px;
+			outline: none;
+		}
+
+
+		.content-desktop {
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.column.left {
+		}
+
+		.column.middle {
+		}
+
+		.column.right {
+
+		}
+
+		.info {
+		}
+
+		.cta {
+			width: 100%;
+			padding-top: 5%;
+		}
+
+		@media (max-width: 768px) {
+
+		.content-desktop {display: none;}
+		.content-mobile {display: block;}
+
+		.socials {
+			text-align: center;
+			padding-top: 10%;
+		}
+
+		.lineup {
+			text-align: center;
+			padding-top: 10%;
+		}
+
+		.cta {display: none;}
+
+		.cta-mobile {
+			padding-top: 10%;
+		}
+
+		button {
+			width: 60%;
+			font-size: 28px;
+		}
+
+		}
