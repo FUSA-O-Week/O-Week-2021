@@ -2,17 +2,15 @@
 		.content-mobile {display: none;}
 
 		body {
-		background-image: url(images/OFiestaWireframes.png), url(images/OFiestaWireframes.png);
-  		background-repeat: no-repeat;
-  		background-position: center;
+		background: #FFCC7A;
   		height: 100%;
 	}
 
 		button {
 			justify-content: center;
 			width: 360px;
-			color: #937CB9;
-			background-color: #FCB762;
+			color: #FFCC7A;
+			background-color: #937CB9;
 			border: none;
 			font-size: 42px;
 			outline: none;
