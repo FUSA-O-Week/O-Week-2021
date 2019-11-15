@@ -1,0 +1,32 @@
+
+		/*
+Theme Name: O'Fiesta 2020
+Theme URI: http://flindersoweek.com.au
+Author: FUSA Media
+Author URI: http://fusa.edu.au
+Description: 2020 O'Fiesta website
+Version: 1.0
+Text Domain: O'Fiesta
+*/
+
+		.content-desktop {display: block;}
+		.content-mobile {display: none;}
+
+		body {
+		background: #FFCC7A;
+  		height: 100%;
+  		font-family: : 'Bebas Neue', cursive;
+		color: #CF6BA6;
+	}
+
+		h1 {
+			font-size: 88px;
+			font-family: : 'Bebas Neue', cursive;
+			color: #CF6BA6;
+		}
+
+		.comingsoon {
+			padding-top: 25%;
+			font-family: : 'Bebas Neue' cursive;
+			color: #CF6BA6;
+		}
